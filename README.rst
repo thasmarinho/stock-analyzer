@@ -20,6 +20,8 @@ $ python3 main.py
 Testing
 -------
 
+$ behave
+
 $ pytest test
 
 Features
