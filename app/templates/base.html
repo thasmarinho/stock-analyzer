@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>{% block title %}{% endblock %}</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
@@ -14,7 +15,6 @@
           <ul class="nav nav-pills pull-right">
             <li role="presentation"><a href="/">Home</a></li>
             <li role="presentation"><a href="/about">About</a></li>
-            <li role="presentation"><a href="http://flask.pocoo.org" target="_blank">More About Flask</a></li>
           </ul>
         </nav>
       </div>
