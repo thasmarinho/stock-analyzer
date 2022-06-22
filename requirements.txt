@@ -18,7 +18,7 @@ Jinja2==2.11.2
 lockfile==0.12.2
 MarkupSafe==1.1.1
 msgpack==0.6.2
-numpy==1.18.4
+numpy==1.22.0
 packaging==20.3
 parse==1.15.0
 parse-type==0.5.2
